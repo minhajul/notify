@@ -1,11 +1,11 @@
 {
     "name": "minhajul/notify",
-    "description": "Flexible flash notifications for Laravel",
+    "description": "Flash Notification",
     "license": "MIT",
     "authors": [
         {
             "name": "Minhajul Islam",
-            "email": "kmsohelinfo@codecourse.com"
+            "email": "kmsohelinfo@gmail.com"
         }
     ],
     "require": {
@@ -15,7 +15,10 @@
     "autoload": {
         "psr-0": {
             "Minhajul\\Notify\\": "src/"
-        }
+        },
+        "files": [
+            "src/Minhajul/Notify/functions.php"
+        ]
     },
     "minimum-stability": "stable"
 }
