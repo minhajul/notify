@@ -17,7 +17,7 @@
             "Minhajul\\Notify\\": "src/"
         },
         "files": [
-            "src/Minhajul/Notify/functions.php"
+            "src/functions.php"
         ]
     },
     "minimum-stability": "stable"
