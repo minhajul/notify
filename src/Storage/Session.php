@@ -6,7 +6,6 @@ use Illuminate\Session\Store;
 
 class Session
 {
-
     protected $session;
 
     public function __construct(Store $session)
